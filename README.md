@@ -1,0 +1,3 @@
+This repository contains examples of Lua code exhibiting an uncommon error related to the 'error' function in error handling.  The 'bug.lua' file shows the flawed code using 'error' to handle a nil value, while 'bugSolution.lua' presents improved approaches.
+
+The 'error' function, while useful for serious errors, can be disruptive if not used carefully. In cases where a nil value is merely unexpected, better solutions exist.  This repository illustrates these alternatives.  
